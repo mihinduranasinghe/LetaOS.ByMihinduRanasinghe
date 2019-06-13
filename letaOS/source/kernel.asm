@@ -71,7 +71,7 @@ option_screen:
 	cmp ax, 1			; If HDIOK (option 0) chosen, start app selector
 	jne near option_screen2
 	
-	call os_exit		; Otherwise clean screen and start the CLI
+	call os_exit		; LetaOS will be shutting down
 	
 
 
@@ -111,7 +111,7 @@ option_screen2:
 
 	
 
-	jmp option_screen		; Offer menu/CLI choice after CLI has exited
+	jmp option_screen		; Back to home page
 
 
 	; Data for the above code...
@@ -543,7 +543,6 @@ _save_string:
 ; ==================================================================
 ; END OF KERNEL
 ; ==================================================================
-
 
 
 
