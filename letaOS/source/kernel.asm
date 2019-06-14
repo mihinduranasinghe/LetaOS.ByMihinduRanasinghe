@@ -83,7 +83,7 @@ option_screen:
 	os_init_msg2		db '                         Hardware Information                               ', 0
 	os_version_msg2		db 'Version ', LetaOS_VER, 0
 
-	dialog_string_1		db 'Thanks for trying out MIHINDUS LetaOS !', 0
+	dialog_string_1		db 'You are Using MIHINDUS Leta OS !', 0
 	dialog_string_2		db '*Click MENU to go for the main menu', 0
 	dialog_string_3		db '*Click SHUTDOWN button whenever you want to turn off LetaOS', 0
 
